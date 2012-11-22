@@ -11,6 +11,7 @@ int main(void)
   int aaa = 111;
   aaa = 531;
   aaa = 11;
+  aaa = 442;
 
   new_nx = ((int)(nx/j)+1)*j;
   #pragma omp parallel for ordered num_threads(j)
