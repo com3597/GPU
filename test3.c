@@ -8,6 +8,9 @@ int main(void)
   int i,j, a[nx], new_nx; 
     j = omp_get_num_procs();  
 
+  int aaa = 111;
+  aaa = 531;
+
   new_nx = ((int)(nx/j)+1)*j;
   #pragma omp parallel for ordered num_threads(j)
   for(i=0;i<new_nx;i++){ 
