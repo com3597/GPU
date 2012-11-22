@@ -23,5 +23,6 @@ int main(void)
     }
    } 
 
+  int bajg;
 
 } 
